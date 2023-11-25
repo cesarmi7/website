@@ -464,6 +464,12 @@ header.sticky{
     .navbar.open{
         left: 0;
     }
+    .box2 h4{
+        bottom: 40px;
+    }
+    .box h4{
+        bottom: 40px;
+    }
 }
 @media (max-width: 800px){
     .holiday{
