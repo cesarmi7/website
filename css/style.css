@@ -92,8 +92,8 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(images/fondo.jpeg);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/fondo.jpeg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(../images/fondo.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/fondo.jpeg);
     background-size: cover;
     background-position: bottom center;
     display: flex;
