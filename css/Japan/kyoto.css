@@ -65,6 +65,7 @@ span{
     font-size: var(--p-font);
     margin-right: 20px;
 }
+
 .h-right a{
     vertical-align: middle;
     font-size: 20px;
@@ -91,8 +92,8 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/japan/japannight.jpg);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/japan/japannight.jpg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../images/japan/ycocho.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../images/japan/ycocho.jpg);
     background-size: cover;
     background-position: bottom center;
     display: flex;
@@ -134,196 +135,6 @@ header.sticky{
     padding: 8px 17%;
     background: transparent;
     backdrop-filter: blur(35px);
-}
-.travels{
-    padding-top: 28px;
-}
-.holiday{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap:8rem;
-}
-.holiday-img img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.holiday-text h5{
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--main-color);
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin-bottom: 20px;
-}
-.holiday-text h2{
-    font-size: var(--h2-font);
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 25px;
-}
-.holiday-text p {
-    font-size: var(--p-font);
-    font-weight: 500;
-    line-height: 30px;
-    color: #ffffffab;
-    margin-bottom: 35px;
-}
-.center-text{
-    text-align: center;
-}
-.center-text h2{
-    font-size: var(--h2-font);
-    font-weight: 800;
-}   
-.tour-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    align-items: center;
-    gap: 3rem;
-    margin-top: 5rem;
-}
-.box{
-    position: relative;
-}
-.box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    filter: brightness(70%);
-    transition: all .3s cubic-bezier(.499,.05,.55,.95);
-    will-change: filter;
-    display: block;
-}
-.box h6{
-    position: absolute;
-    left: 25px;
-    bottom: 95px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.box h4{
-    position: absolute;
-    left: 25px;
-    bottom: 65px;
-    font-size: 20px;
-    font-weight: 700;
-}
-.box img:hover{
-    transform: scale(1.04);
-    cursor: pointer;
-}
-.travels2,.travels3, .travels4{
-    padding-top: 3px;
-}
-.tour-content2, .tour-content3, .tour-content4{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    align-items: center;
-    gap: 3rem;
-}
-.box2, .box3, .box4{
-    position: relative;
-}
-.box2 img, .box3 img, .box4 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    filter: brightness(70%);
-    transition: all .3s cubic-bezier(.499,.05,.55,.95);
-    will-change: filter;
-    display: block;
-}
-.box2 h6, .box3 h6, .box4 h6{
-    position: absolute;
-    left: 25px;
-    bottom: 95px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.box2 h4,.box3 h4, .box4 h4{
-    position: absolute;
-    left: 25px;
-    bottom: 65px;
-    font-size: 20px;
-    font-weight: 700;
-}
-.box2 img:hover, .box3 img:hover, .box4 img:hover{
-    transform: scale(1.04);
-    cursor: pointer;
-}
-.copyright p{
-    text-align: center;
-    padding: 20px;
-    color: #979797;
-    font-size: 15px;
-}
-.culture{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap:9rem;
-}
-.culture-img img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.culture-text h5{
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--main-color);
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin-bottom: 20px;
-}
-.culture-text h2{
-    font-size: var(--h2-font);
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 25px;
-}
-.culture-text p {
-    font-size: var(--p-font);
-    font-weight: 500;
-    line-height: 30px;
-    color: #ffffffab;
-    margin-bottom: 35px;
-}
-.xe{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap:8rem;
-}
-.xe-img img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.xe-text h5{
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--main-color);
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin-bottom: 20px;
-}
-.xe-text h2{
-    font-size: var(--h2-font);
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 25px;
-}
-.xe-text p {
-    font-size: var(--p-font);
-    font-weight: 500;
-    line-height: 30px;
-    color: #ffffffab;
-    margin-bottom: 35px;
 }
 .footer{
     display: grid;
