@@ -20,9 +20,17 @@ function toggleLanguage(currentLanguage) {
         elem.innerHTML = translations[key][currentLanguage]; 
     });
 }
-function changeLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
-    toggleLanguage(currentLanguage);
+function changeLanguageEn() {
+    if(currentLanguage == 'es'){
+        currentLanguage = 'en'; 
+        toggleLanguage(currentLanguage);
+    }
+}
+function changeLanguageEs() {
+    if(currentLanguage == 'en'){
+        currentLanguage = 'es'; 
+        toggleLanguage(currentLanguage);
+    }
 }
 const translations = {
     "home":{
