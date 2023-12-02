@@ -137,11 +137,13 @@ section{
     background: transparent;
     color:var(--text-color);
 }
-header.sticky{
+header.sticky {
     padding: 8px 17%;
-    background: transparent;
+    background: transparent; 
+    -webkit-backdrop-filter: blur(35px);
     backdrop-filter: blur(35px);
 }
+
 .feature-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
