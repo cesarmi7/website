@@ -53,6 +53,10 @@ span{
     margin: 15px 22px;
     transition: all .50s ease;
 }
+.navbar img{
+    width: 24px;
+    margin-top: 3.5px; 
+}
 .navbar a:hover{
     color: var(--main-color);
 }

@@ -47,6 +47,7 @@ span{
     display: flex;
 }
 .navbar a{
+    
     color: var(--text-color);
     font-size: var(--p-font);
     font-weight: 500;
@@ -130,6 +131,7 @@ section{
     cursor: pointer;
 }
 .btn:hover{
+    -webkit-transform: translateX(10px);
     transform: translateX(10px);
     border: 2px solid var(--text-color);
     background: transparent;

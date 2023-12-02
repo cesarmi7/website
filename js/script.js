@@ -1,3 +1,12 @@
+function setFullHeight() {
+    var viewportHeight = window.innerHeight;
+    document.querySelector('.full-screen-element').style.height = viewportHeight + 'px';
+}
+
+// Run the function on load and on resize
+window.onload = setFullHeight;
+window.onresize = setFullHeight;
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function(){
