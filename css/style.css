@@ -407,7 +407,7 @@ header.sticky{
         padding: 50px 8% 40px;
     }
 }
-@media (max-width: 1200px){
+@media (max-width: 1330px){
     header{
         padding: 14px 5%;
     }
@@ -426,7 +426,7 @@ header.sticky{
         height: 90vh;
     }
 }
-@media (max-width: 1050px){
+@media (max-width: 1120px){
     .feature-content{
         gap: 1.5rem;
     }
