@@ -18,14 +18,15 @@
         <header>
             <a href="index.html" class="logo">Llama<span>studio!</span></a>
             <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="a" href="#aboutme">About me</a></li>
-                <li><a class = "t" href="#travels">Travels</a></li>
-                <li><a class="p" href="#purpose">Purpose</a></li>
+                <li><a data-key="home" href="index.html">Home</a></li>
+                <li><a data-key="aboutMe" class="a" href="#aboutme">About me</a></li>
+                <li><a data-key="travels" class = "t" href="#travels">Travels</a></li>
+                <li><a data-key="purpose" class="p" href="#purpose">Purpose</a></li>
+                <li><a onclick="changeLanguage()">Language</a></li>
             </ul>
             <div class="h-right">
                 <div class="h-right2">
-                    <a class="a" href="#contact">Contact Me</a>
+                    <a data-key="contactMe" class="a" href="#contact">Contact Me</a>
                     <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
                     <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
                     <a href="https://www.tiktok.com/@llamastudio7" target="_blank"><i class="ri-tiktok-fill"></i></a>
@@ -37,7 +38,7 @@
         <section class="home">
             <div class="home-text">
                 <h1>¡Hola!</h1>
-                <p>
+                <p data-key="welcomeMessage">
                     Let's explore this world together, documenting 
                     trips and planning new ones.<br>There is still 
                     a long way to go, mountains to climb, pictures to 
@@ -51,31 +52,31 @@
                     <div class="row-img">
                         <img src="images/nap1.jpg">
                     </div>
-                    <h4>Photography</h4>
+                    <h4 data-key="photography">Photography</h4>
                 </div>
                 <div class="row">
                     <div class="row-img">
                         <img src= "images/nap2.jpg">
                     </div>
-                    <h4>Food</h4>
+                    <h4 data-key="food">Food</h4>
                 </div>
                 <div class="row">
                     <div class="row-img">
                         <img src= "images/nap3.jpg">
                     </div>
-                    <h4>Art</h4>
+                    <h4 data-key="art">Art</h4>
                 </div>
                 <div class="row">
                     <div class="row-img">
                         <img src= "images/nap4.jpg">
                     </div>
-                    <h4>Secret Spots</h4>
+                    <h4 data-key="secretSpots">Secret Spots</h4>
                 </div>
                 <div class="row">
                     <div class="row-img">
                         <img src= "images/nap5.jpg">
                     </div>
-                    <h4>Animals</h4>
+                    <h4 data-key="animals">Animals</h4>
                 </div>
             </div> 
         </section>
@@ -85,18 +86,18 @@
             </div>
             <div class="holiday-text">
                 <h5>Machu Picchu, Cusco, Peru</h5>
-                <h2>¡Hola! I'm Cesar</h2>
-                <p>
+                <h2 data-key="aboutMeHeader">¡Hola! I'm Cesar</h2>
+                <p data-key="aboutMeContent">
                     Thanks for checking out my blog! Here, you'll find posts about my trips, travel tips, food, and lots of photos. 
                     I'm currently studying Computer Science and Math in New York and I'm originally from Peru. 
                     I speak Spanish, English, and Italian, so if you have any questions, feel free to ask me!
                 </p>
-                <a href="#contact" class="btn">Contact</a>
+                <a data-key="contact" href="#contact" class="btn">Contact</a>
             </div>
         </section>
         <section class="travels" id="travels">
             <div class="center-text">
-                <h2>Travels</h2>
+                <h2 data-key="travels">Travels</h2>
             </div>
             <div class="tour-content">
                 <div class="box">
@@ -149,11 +150,11 @@
         </section>
         <section class="culture" id="purpose">
             <div class="culture-text">
-                <h5>PURPOSE</h5>
-                <h2>Life is beautiful but short</h2>
-                <p>
+                <h5 data-key="purposehead">PURPOSE</h5>
+                <h2 data-key="life">Life is beautiful but short</h2>
+                <p data-key="purposeinfo">
                     My purpose in life is to inspire and encourage others to explore the beauty of our world. 
-                    Experiencing cultures and new places, sharing knowledge, and continual learning are core 
+                    Experiencing cultures and explore new places, sharing knowledge, and continual learning are core 
                     aspects of travel that I'm passionate about. As long as I live, I will look for freedom.
                 </p>
             </div>
@@ -164,24 +165,24 @@
         <section class="newsletter" id="contact">
             <div class="newsletter-content">
                 <div class="newsletter-text">
-                    <h2>Any questions?</h2>
-                    <p>You can reach me by my socials, or you can share your email with me, and I'll contact you as soon as possible.</p>
+                    <h2 data-key="questions">Any questions?</h2>
+                    <p data-key="questionsinfo">You can reach me by my socials, or you can share your email with me, and I'll contact you as soon as possible.</p>
                 </div>
                 <form action="">
-                    <input type="email" placeholder="Enter your email..." required>
-                    <input type="submit" value="Sent" class="btn">
+                    <input data-key="email" type="email" placeholder="Enter your email..." required>
+                    <input data-key="sent" type="submit" value="Sent" class="btn">
                 </form>
             </div>
         </section>
         <section class="footer">
             <div class="footer-box">
-                <h3>Help</h3>
+                <h3 data-key="help">Help</h3>
                 <a class="a" href="https://www.passportindex.org" target="_blank">Passport Index</a>
                 <a class="t" href="https://www.xe.com" target="_blank">Currency exchange</a>
-                <a class="c" href="#contact">Contact</a>
+                <a data-key="contact" class="c" href="#contact">Contact</a>
             </div>
             <div class="footer-box">
-                <h3>Social</h3>
+                <h3 data-key="social">Social</h3>
                 <div class="social">
                     <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
                     <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
