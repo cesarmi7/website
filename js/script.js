@@ -64,9 +64,17 @@ function toggleLanguage(currentLanguage) {
         elem.innerHTML = translations[key][currentLanguage]; 
     });
 }
-function changeLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
-    toggleLanguage(currentLanguage);
+function changeLanguageEn() {
+    if(currentLanguage == 'es'){
+        currentLanguage = 'en'; 
+        toggleLanguage(currentLanguage);
+    }
+}
+function changeLanguageEs() {
+    if(currentLanguage == 'en'){
+        currentLanguage = 'es'; 
+        toggleLanguage(currentLanguage);
+    }
 }
 const translations = {
     "home":{
@@ -87,7 +95,7 @@ const translations = {
     },
     "welcomeMessage": {
         "en": "Let's explore this world together, documenting trips and planning new ones.<br>There is still a long way to go, mountains to climb, pictures to take, and food to try. <br>So come along with me.",
-        "es": "Exploremos este mundo juntos, documentando viajes y planificando nuevos.<br>Todavía hay un largo camino por recorrer, montañas por escalar, fotos que tomar <br>y comida por probar. Así que acompáñame."
+        "es": "Dame la mano y vamos a darle la vuelta al mundo, documentando viajes y <br>planificando nuevos. Todavía hay un largo camino por recorrer, montañas <br>por escalar, fotos que tomar y comida por probar. Así que acompáñame."
     },
     "photography": {
         "en": "Photography",
