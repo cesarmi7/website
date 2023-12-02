@@ -47,3 +47,118 @@ document.addEventListener("DOMContentLoaded", function() {
         targetSection.scrollIntoView({ behavior: "smooth"});
     });
 });
+
+function toggleLanguage(currentLanguage) {
+    // Assuming you have a data-key attribute for each translatable element
+    document.querySelectorAll("[data-key]").forEach(elem => {
+        const key = elem.getAttribute("data-key");
+        elem.textContent = translations[key][currentLanguage];
+    });
+}
+
+let currentLanguage = 'en'; 
+
+function toggleLanguage(currentLanguage) {
+    document.querySelectorAll("[data-key]").forEach(elem => {
+        const key = elem.getAttribute("data-key");
+        elem.innerHTML = translations[key][currentLanguage]; 
+    });
+}
+function changeLanguage() {
+    currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
+    toggleLanguage(currentLanguage);
+}
+const translations = {
+    "home":{
+        "en": "Home",
+        "es": "Hogar"
+    },
+    "aboutMe":{
+        "en": "About me",
+        "es": "Sobre mi"
+    },
+    "travels":{
+        "en": "Travels",
+        "es": "Viajes"
+    },
+    "purpose":{
+        "en": "Purpose",
+        "es": "Propósito"
+    },
+    "welcomeMessage": {
+        "en": "Let's explore this world together, documenting trips and planning new ones.<br>There is still a long way to go, mountains to climb, pictures to take, and food to try. <br>So come along with me.",
+        "es": "Exploremos este mundo juntos, documentando viajes y planificando nuevos.<br>Todavía hay un largo camino por recorrer, montañas por escalar, fotos que tomar <br>y comida por probar. Así que acompáñame."
+    },
+    "photography": {
+        "en": "Photography",
+        "es": "Fotografías"
+    },
+    "food": {
+        "en": "Food",
+        "es": "Comida"
+    },
+    "art": {
+        "en": "Art",
+        "es": "Arte"
+    },
+    "secretSpots": {
+        "en": "Secret Spots",
+        "es": "Lugares Secretos"
+    },
+    "animals": {
+        "en": "Animals",
+        "es": "Animales"
+    },
+    "aboutMeHeader": {
+        "en": "¡Hola! I'm Cesar",
+        "es": "¡Hola! Soy Cesar"
+    },
+    "aboutMeContent": {
+        "en": "Thanks for checking out my blog! Here, you'll find posts about my trips, travel tips, food, and lots of photos. I'm currently studying Computer Science and Math in New York and I'm originally from Peru. I speak Spanish, English, and Italian, so if you have any questions, feel free to ask me!",
+        "es": "¡Gracias por visitar mi blog! Aquí encontrarás publicaciones sobre mis viajes, consejos de viaje, comida y muchas fotos. Actualmente estoy estudiando Ingenieria de Sistemas y Matemáticas en Nueva York y soy originario de Perú. Hablo español, inglés e italiano, así que si tienes alguna pregunta, ¡no dudes en preguntarme!"
+    },
+    "contact": {
+        "en": "Contact",
+        "es": "Contacto"
+    },
+    "contactMe": {
+        "en": "Contact Me",
+        "es": "Contáctame"
+    },
+    "help": {
+        "en": "Help",
+        "es": "Ayuda"
+    },
+    "social": {
+        "en": "Social",
+        "es": "Redes"
+    },
+    "questions": {
+        "en": "Any questions?",
+        "es": "¿Alguna pregunta?"
+    },
+    "questionsinfo": {
+        "en": "You can reach me by my socials, or you can share your email with me, and I'll contact you as soon as possible.",
+        "es": "Puedes contactarme a través de mis redes sociales, o puedes compartir tu correo electrónico conmigo y te contactaré lo antes posible."
+    },
+    "email": {
+        "en": "Enter your email...",
+        "es": "Ingrese tu correo electrónico..."
+    },
+    "sent": {
+        "en": "Sent",
+        "es": "Redes"
+    },
+    "purposehead": {
+        "en": "PURPOSE",
+        "es": "PROPÓSITO"
+    },
+    "life": {
+        "en": "Life is beautiful but short",
+        "es": "La vida es bella pero corta"
+    },
+    "purposeinfo": {
+        "en": "My purpose in life is to inspire and encourage others to explore the beauty of our world. Experiencing cultures and explore new places, sharing knowledge, and continual learning are core aspects of travel that I'm passionate about. As long as I live, I will look for freedom.",
+        "es": "Mi propósito en la vida es inspirar y animar a otros a explorar la belleza de nuestro mundo. Experimentar culturas y explorar nuevos lugares, compartir ideas y el aprendizaje continuo son aspectos fundamentales del viaje que me apasionan. Mientras siga vivo, buscaré la libertad."
+    },
+};
