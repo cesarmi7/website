@@ -89,49 +89,13 @@ const translations = {
         "en": "Home",
         "es": "Hogar"
     },
-    "aboutMe":{
-        "en": "About me",
-        "es": "Sobre mi"
-    },
     "travels":{
         "en": "Travels",
         "es": "Viajes"
     },
-    "purpose":{
-        "en": "Purpose",
-        "es": "Propósito"
-    },
-    "welcomeMessage": {
-        "en": "Let's explore this world together, documenting trips and planning new ones.<br>There is still a long way to go, mountains to climb, pictures to take, and food to try. <br>So come along with me.",
-        "es": "Dame la mano y vamos a darle la vuelta al mundo, documentando viajes y <br>planificando nuevos. Todavía hay un largo camino por recorrer, montañas <br>por escalar, fotos que tomar y comida por probar. Así que acompáñame."
-    },
-    "photography": {
-        "en": "Photography",
-        "es": "Fotografías"
-    },
-    "food": {
-        "en": "Food",
-        "es": "Comida"
-    },
-    "art": {
-        "en": "Art",
-        "es": "Arte"
-    },
-    "secretSpots": {
-        "en": "Secret Spots",
-        "es": "Lugares Secretos"
-    },
-    "animals": {
-        "en": "Animals",
-        "es": "Animales"
-    },
-    "aboutMeHeader": {
-        "en": "¡Hola! I'm Cesar",
-        "es": "¡Hola! Soy Cesar"
-    },
-    "aboutMeContent": {
-        "en": "Thanks for checking out my blog! Here, you'll find posts about my trips, travel tips, food, and lots of photos. I'm currently studying Computer Science and Math in New York and I'm originally from Peru. I speak Spanish, English, and Italian, so if you have any questions, feel free to ask me!",
-        "es": "¡Gracias por visitar mi blog! Aquí encontrarás publicaciones sobre mis viajes, consejos de viaje, comida y muchas fotos. Actualmente estoy estudiando Ingenieria de Sistemas y Matemáticas en Nueva York y soy originario de Perú. Hablo español, inglés e italiano, así que si tienes alguna pregunta, ¡no dudes en preguntarme!"
+    "cities":{
+        "en": "Cities",
+        "es": "Ciudades"
     },
     "contact": {
         "en": "Contact",
@@ -149,32 +113,8 @@ const translations = {
         "en": "Social",
         "es": "Redes"
     },
-    "questions": {
-        "en": "Any questions?",
-        "es": "¿Alguna pregunta?"
-    },
-    "questionsinfo": {
-        "en": "You can reach me by my socials, or you can share your email with me, and I'll contact you as soon as possible.",
-        "es": "Puedes contactarme a través de mis redes sociales, o puedes compartir tu correo electrónico conmigo y te contactaré lo antes posible."
-    },
-    "email": {
-        "en": "Enter your email...",
-        "es": "Ingrese tu correo electrónico..."
-    },
-    "sent": {
-        "en": "Sent",
-        "es": "Redes"
-    },
-    "purposehead": {
-        "en": "PURPOSE",
-        "es": "PROPÓSITO"
-    },
-    "life": {
-        "en": "Life is beautiful but short",
-        "es": "La vida es bella pero corta"
-    },
-    "purposeinfo": {
-        "en": "My purpose in life is to inspire and encourage others to explore the beauty of our world. Experiencing cultures and explore new places, sharing knowledge, and continual learning are core aspects of travel that I'm passionate about. As long as I live, I will look for freedom.",
-        "es": "Mi propósito en la vida es inspirar y animar a otros a explorar la belleza de nuestro mundo. Experimentar culturas y explorar nuevos lugares, compartir ideas y el aprendizaje continuo son aspectos fundamentales del viaje que me apasionan. Mientras siga vivo, buscaré la libertad."
+    "cambio": {
+        "en": "Currency Exchange",
+        "es": "Cambio de Divisas"
     },
 };

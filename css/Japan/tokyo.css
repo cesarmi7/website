@@ -131,10 +131,19 @@ section{
     background: transparent;
     color:var(--text-color);
 }
-header.sticky{
+header.sticky {
     padding: 8px 17%;
-    background: transparent;
+    background: transparent; 
+    -webkit-backdrop-filter: blur(35px);
     backdrop-filter: blur(35px);
+}
+.navbar img{
+    width: 24px;
+    margin-top: 3.5px; 
+}
+.language-switcher {
+    display: flex;
+    justify-content: space-around; 
 }
 .footer{
     display: grid;
@@ -233,6 +242,14 @@ header.sticky{
         flex-direction: column;
         background: var(---bg-color);
         transition: all .50s ease;
+    }
+    .language-switcher {
+        display: flex;
+        justify-content: space-around; 
+        width: 30%;
+    }
+    .language-switcher .imagen {
+        flex: 1; /* Adjust as needed */
     }
     .navbar a{
         display: block;

@@ -18,13 +18,21 @@
         <header>
             <a href="../../index.html" class="logo">Llama<span>studio!</span></a>
             <ul class="navbar">
-                <li><a href="../../index.html">Home</a></li>
-                <li><a class = "t" href="../../index.html#travels">Travels</a></li>
-                <li><a class="p" href="../japan.html#cities">Cities</a></li>
+                <li><a data-key="home" href="../../index.html">Home</a></li>
+                <li><a data-key="travels" class = "t" href="../../index.html#travels">Travels</a></li>
+                <li><a data-key="cities" class="p" href="../japan.html#cities">Cities</a></li>
+                <div class="language-switcher">
+                    <div class="imagen">
+                        <a onclick="changeLanguageEn()"><img src="../../images/english.png"></a>
+                    </div>
+                    <div class="imagen">
+                        <a onclick="changeLanguageEs()"><img src="../../images/spain.png"></a>
+                    </div>
+                </div>                
             </ul>
             <div class="h-right">
                 <div class="h-right2">
-                    <a class="a" href="#contact">Contact Me</a>
+                    <a data-key="contactMe" class="a" href="#contact">Contact Me</a>
                     <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
                     <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
                     <a href="https://www.tiktok.com/@llamastudio7" target="_blank"><i class="ri-tiktok-fill"></i></a>
@@ -45,15 +53,15 @@
         </section>
         <section class="footer">
             <div class="footer-box">
-                <h3>Help</h3>
+                <h3 data-key="help">Help</h3>
                 <a href="https://www.passportindex.org" target="_blank">Passport Index</a>
-                <a href="https://www.xe.com" target="_blank">Currency exchange</a>
-                <a class="a" href="../index.html#travels">Travels</a>
-                <a class="c" href="../index.html#contact">Contact</a>
-                <a class="t" href="#cities">Cities</a>
+                <a data-key="cambio" href="https://www.xe.com" target="_blank">Currency exchange</a>
+                <a data-key="travels" class="a" href="../index.html#travels">Travels</a>
+                <a data-key="contact" class="c" href="../index.html#contact">Contact</a>
+                <a data-key="cities" class="t" href="#cities">Cities</a>
             </div>
             <div class="footer-box">
-                <h3>Social</h3>
+                <h3 data-key="social">Social</h3>
                 <div class="social">
                     <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
                     <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
@@ -64,6 +72,6 @@
         <div class="copyright">
             <p>Copyright 2023 By Cesar Iglesias</p>
         </div>
-        <script src="../../js/scriptjp.js"></script>
+        <script src="../../js/Japan/tokyo.js"></script>
     </body>
 </html>
