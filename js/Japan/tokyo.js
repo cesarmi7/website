@@ -87,7 +87,7 @@ function changeLanguageEs() {
 const translations = {
     "home":{
         "en": "Home",
-        "es": "Hogar"
+        "es": "Inicio"
     },
     "travels":{
         "en": "Travels",
