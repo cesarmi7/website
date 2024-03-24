@@ -4,6 +4,23 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 60)
 });
 
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', function() {
+        // This assumes you have a 'menu-icon' id on your burger menu and 'navbar' class on your nav
+        const navbar = document.querySelector('.navbar');
+        const menuIcon = document.querySelector('#menu-icon');
+        const isOpen = navbar.classList.contains('open');
+
+        // Check if navbar is open and if the menu icon is visible
+        if (isOpen && window.getComputedStyle(menuIcon).display !== 'none') {
+            // Close the navbar by removing 'open' class
+            navbar.classList.remove('open');
+            // If you're toggling the icon to an 'X' or similar, toggle this back
+            menuIcon.classList.remove('bx-x');
+        }
+    });
+});
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
