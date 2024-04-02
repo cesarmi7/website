@@ -442,6 +442,11 @@ header.sticky {
         height: 90vh;
     }
 }
+@media (max-width:1200px){
+    .navbar li{
+        margin-top: 4px;
+    }
+}
 @media (max-width: 1175px){
     .feature-content{
         gap: 1.5rem;

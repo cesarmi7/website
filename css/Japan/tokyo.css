@@ -344,6 +344,9 @@ header.sticky {
         --h2-font: 2.8rem;
         --p-font: 15px;
     }
+    .navbar li{
+        margin-top: 4px;
+    }
     .home{
         height: 90vh;
     }
