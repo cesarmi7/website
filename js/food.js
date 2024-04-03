@@ -70,10 +70,6 @@ const translations = {
         "en": "Contact Me",
         "es": "Contáctame"
     },
-    "404info": {
-        "en": "Sorry, this page is still under development.",
-        "es": "Lo siento, esta página aún está en desarrollo."
-    },
     "help": {
         "en": "Help",
         "es": "Ayuda"

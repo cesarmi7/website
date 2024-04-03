@@ -22,6 +22,13 @@ body{
     color: var(--text-color);
     background: var(---bg-color);
 }
+header.sticky {
+    padding: 8px 17%;
+    background: transparent; 
+    -webkit-backdrop-filter: blur(35px);
+    backdrop-filter: blur(35px);
+}
+
 header{
     position: fixed;
     top: 0;
@@ -130,7 +137,7 @@ section{
     justify-content: space-around; 
 }
 .new{
-    padding-top: 82px;
+    padding-top: 90px;
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -227,6 +234,9 @@ section{
         padding-left: 60px;
         padding-right: 60px;
     }
+    .box{
+        padding-bottom: 40px;
+    }
 }
 @media (max-width:1400px){
     .navbar li{
@@ -309,6 +319,19 @@ section{
     .navbar.open{
         left: 0;
     }
+    .profile-pic {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        /* Ensure the image is aligned to the top with the username */
+        align-self: flex-start;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
 }
 @media (max-width: 1000px) {
     .box{
@@ -316,6 +339,14 @@ section{
         grid-template-columns: repeat(auto-fit, minmax(380px, auto));
         align-items: center;
         gap: 3rem;
+    }
+    .profile-pic {
+        border-radius: 50%;
+        width: 32px;
+        height: 35px;
+        padding-top: 6px;
+        /* Ensure the image is aligned to the top with the username */
+        align-self: flex-start;
     }
 }
 @media (max-width: 900px) {
@@ -326,14 +357,38 @@ section{
         gap: 3rem;
     }
 }
-@media (max-width: 800px){
+@media (max-width: 828px){
     .new{
         padding-left: 30px;
         padding-right: 30px;
     }
     .box{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 708px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 668px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 668px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
         align-items: center;
         gap: 3rem;
     }
@@ -346,7 +401,52 @@ section{
         margin: 2px;
     }
 }
+@media (max-width: 668px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 528px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 520px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+        align-items: center;
+        gap: 2.8rem;
+    }
+}
+@media (max-width: 500px){
+    .username {
+        font-size: 0.88rem;
+        font-weight: bold;
+    }
+    .location {
+        font-size: 0.7rem;
+        color: #424242;
+    }
+}
 @media (max-width: 450px){
+    .post-footer .description {
+        font-size: 10px; /* Use the root variable for font size */
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+        align-items: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 440px){
     .username {
         font-size: 0.82rem;
         font-weight: bold;
@@ -373,5 +473,33 @@ section{
         grid-template-columns: repeat(auto-fit, minmax(120px, auto));
         align-items: center;
         gap: 1.5rem;
+    }
+    .profile-pic {
+        border-radius: 50%;
+        width: 26px;
+        height: 30px;
+        padding-top: 3px;
+        align-self: flex-start;
+    }
+    
+}
+@media (max-width: 385px){
+    .username {
+        font-size: 0.80rem;
+        font-weight: bold;
+    }
+    .location {
+        font-size: 0.58rem;
+        color: #424242;
+    }
+}
+@media (max-width: 370px){
+    .username {
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .location {
+        font-size: 0.5rem;
+        color: #424242;
     }
 }
