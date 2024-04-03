@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Food!</title>
+        <link rel="icon" href="../images/llamastudio.ico">
+
+        <link rel="stylesheet" type="text/css" href="../css/food.css">
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html" class="logo">Llama<span>studio!</span></a>
+            <ul class="navbar">
+                <li><a data-key="home" href="../index.html">Home</a></li>
+                <li><a data-key="travels" class = "t" href="../index.html#travels">Travels</a></li>
+                <div class="language-switcher">
+                    <div class="imagen">
+                        <a onclick="changeLanguageEn()"><img src="../images/english.png"></a>
+                    </div>
+                    <div class="imagen">
+                        <a onclick="changeLanguageEs()"><img src="../images/spain.png"></a>
+                    </div>
+                </div>
+            </ul>
+            <div class="h-right">
+                <div class="h-right2">
+                    <a data-key="contactMe" class="a" href="#contact">Contact Me</a>
+                    <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://www.tiktok.com/@llamastudio7" target="_blank"><i class="ri-tiktok-fill"></i></a>
+                    <a href="#"><i class="ri-envelope-fill"></i></a>
+                </div>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+        <section class="new">
+            <div class="box">
+                <div class="post" id="posts-container">
+                    <div class="post-header">
+                        <img src="../images/cesitar.png" alt="Profile" class="profile-pic"/>
+                        <div class="post-header-info">
+                            <span class="username">cesar.mc7</span>
+                            <a href="link_to_location" class="location">Cusco, Peru</a>
+                        </div>
+                    </div>
+                    <img src="../images/food/coca.jpg" alt="Main Content" class="main-pic"/>
+                    <div class="post-footer">
+                        <p class="description">Coca tea.</p>
+                    </div>
+                </div>
+                <div class="post" id="posts-container">
+                    <div class="post-header">
+                        <img src="../images/cesitar.png" alt="Profile" class="profile-pic"/>
+                        <div class="post-header-info">
+                            <span class="username">cesar.mc7</span>
+                            <a href="link_to_location" class="location">Valley Stream, NY</a>
+                        </div>
+                    </div>
+                    <img src="../images/food/lomosaltadousa.jpg" alt="Main Content" class="main-pic"/>
+                    <div class="post-footer">
+                        <p class="description">Lomo Saltado.</p>
+                    </div>
+                </div>
+                <div class="post" id="posts-container">
+                    <div class="post-header">
+                        <img src="../images/cesitar.png" alt="Profile" class="profile-pic"/>
+                        <div class="post-header-info">
+                            <span class="username">cesar.mc7</span>
+                            <a href="link_to_location" class="location">New York</a>
+                        </div>
+                    </div>
+                    <img src="../images/food/curry.jpg" alt="Main Content" class="main-pic"/>
+                    <div class="post-footer">
+                        <p class="description">Curry.</p>
+                    </div>
+                </div>
+                <div class="post" id="posts-container">
+                    <div class="post-header">
+                        <img src="../images/cesitar.png" alt="Profile" class="profile-pic"/>
+                        <div class="post-header-info">
+                            <span class="username">cesar.mc7</span>
+                            <a href="link_to_location" class="location">Cajamarca, Peru</a>
+                        </div>
+                    </div>
+                    <img src="../images/food/quesillo.jpg" alt="Main Content" class="main-pic"/>
+                    <div class="post-footer">
+                        <p class="description">Quesillo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer-box">
+                <h3 data-key="help">Help</h3>
+                <a href="https://www.passportindex.org" target="_blank">Passport Index</a>
+                <a data-key="cambio" href="https://www.xe.com" target="_blank">Currency exchange</a>
+                <a data-key="travels" class="a" href="../index.html#travels">Travels</a>
+                <a data-key="contact" class="c" href="../index.html#contact">Contact</a>
+                <a data-key="cities" class="t" href="#cities">Cities</a>
+            </div>
+            <div class="footer-box">
+                <h3 data-key="social">Social</h3>
+                <div class="social">
+                    <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmNqQRWsTTNOPN7DkqwtocA" target="_blank"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://www.tiktok.com/@llamastudio7" target="_blank"><i class="ri-tiktok-fill"></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright 2023 By Cesar Iglesias</p>
+        </div>
+        <script src="../js/food.js"></script>
+    </body>
+</html>

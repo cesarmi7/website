@@ -423,6 +423,11 @@ header.sticky {
         padding: 50px 8% 40px;
     }
 }
+@media (max-width:1400px){
+    .navbar li{
+        margin-top: 4px;
+    }
+}
 @media (max-width: 1370px){
     header{
         padding: 14px 5%;
@@ -440,11 +445,6 @@ header.sticky {
     }
     .home{
         height: 90vh;
-    }
-}
-@media (max-width:1200px){
-    .navbar li{
-        margin-top: 4px;
     }
 }
 @media (max-width: 1175px){
