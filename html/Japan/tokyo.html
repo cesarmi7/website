@@ -20,15 +20,15 @@
             <ul class="navbar">
                 <li><a data-key="ntr" href="#ntr">NRT to Tokyo!</a></li>
                 <li><a data-key="wherestay" href="#wherestay">Where to stay?</a></li>
-                <li><a data-key="cities" href="#edogawa">Edogawa!</a></li>
-                <li><a data-key="cities" href="#asakusa">Asakusa!</a></li>
-                <li><a data-key="cities" href="#ueno">Ueno!</a></li>
-                <li><a data-key="cities" href="#shibuya">Shibuya!</a></li>
-                <li><a data-key="cities" href="#shinjuku">Shinjuku!</a></li>
-                <li><a data-key="cities" href="#shiba">Shiba!</a></li>
-                <li><a data-key="cities" href="#akihabara">Akihabara!</a></li>
-                <li><a data-key="cities" href="#chiyoda">Chiyoda!</a></li>
-                <li><a data-key="cities" href="#ginza">Ginza!</a></li>
+                <li><a data-key="edogawa" href="#edogawa">Edogawa!</a></li>
+                <li><a data-key="asakusa" href="#asakusa">Asakusa!</a></li>
+                <li><a data-key="ueno" href="#ueno">Ueno!</a></li>
+                <li><a data-key="shibuya" href="#shibuya">Shibuya!</a></li>
+                <li><a data-key="shinjuku" href="#shinjuku">Shinjuku!</a></li>
+                <li><a data-key="shiba" href="#shiba">Shiba!</a></li>
+                <li><a data-key="akihabara" href="#akihabara">Akihabara!</a></li>
+                <li><a data-key="chiyoda" href="#chiyoda">Chiyoda!</a></li>
+                <li><a data-key="ginza" href="#ginza">Ginza!</a></li>
                 <div class="language-switcher">
                     <div class="imagen">
                         <a onclick="changeLanguageEn()"><img src="../../images/english.png"></a>
@@ -36,7 +36,7 @@
                     <div class="imagen">
                         <a onclick="changeLanguageEs()"><img src="../../images/spain.png"></a>
                     </div>
-                </div>                
+                </div>             
             </ul>
             <div class="h-right">
                 <div class="h-right2">
@@ -51,28 +51,31 @@
         </header>
         <section class="home">
             <div class="home-text">
-                <h1>TOKYO!</h1>
-                <p>
+                <h1 data-key="homeTitle">TOKYO!</h1>
+                <p data-key="homeDescription">
                     Here, every corner tells a story, from the serene 
-                    beauty of historic temples <br>to the high-tech frenzy of 
-                    bustling districts like Shibuya
+                    beauty of historic temples <br>to the frenzy districts like Shibuya.
                 </p>
             </div>
         </section>
         <section id="ntr" class="ntr">
             <div class="center-text">
-                <h2 data-key="holiday">NRT to Tokyo!</h2>
+                <h2 data-key="ntr">NRT to Tokyo!</h2>
             </div>
             <section class="holiday">
                 <div class="holiday-img">
                     <img src="../../images/japan/bus.jpg">
                 </div>
                 <div class="holiday-text">
-                    <p data-key="visainfo">
+                    <p data-key="airport">
                         Tokyo has two main airports, 
-                        <a href="https://rb.gy/y35vqt" target="_blank">Narita</a> 
+                    </p>
+                    <a href="https://rb.gy/y35vqt" target="_blank">Narita</a> 
+                    <p data-key="airportand">
                         and 
-                        <a href="https://rb.gy/aa5ia2" target="_blank">Haneda</a>. 
+                    </p>
+                    <a href="https://rb.gy/aa5ia2" target="_blank">Haneda</a>
+                    <p data-key="airport2">.     
                         I arrived at Narita Airport, 
                         which is approximately an hour away from the metropolitan area of Tokyo. 
                         After exiting immigration, on the ground floor, you'll find bus agencies where 
@@ -83,14 +86,18 @@
             </section>
             <section class="holiday">
                 <div class="holiday-text">
-                    <p data-key="jrinfo">
+                    <p data-key="escaleras">
                         Additionally, if you go downstairs, you'll find the train station where you can take multiple trains. 
                         Don't worry about getting lost; you'll see a big sign saying "Train." Don't be afraid to ask for help if you need it.                        
                         The most popular ones are the Narita Express or the Skyliner to 
-                        <a href="https://tinyurl.com/mpbf75zn" target="_blank">Tokyo Central Station</a>. 
+                    </p>
+                    <a href="https://tinyurl.com/mpbf75zn" target="_blank" data-key="escaleras2">Tokyo Central Station</a><p>.</p> 
+                    <p data-key="escaleras3">
                         In my case, with the 
-                        <a href="https://japanrailpass.net/en/" target="_blank">JrPass</a>
-                        , I chose to take the Narita Express.
+                    </p>
+                    <a href="https://japanrailpass.net/en/" target="_blank">JrPass</a><p>, </p>
+                    <p data-key="escaleras4">
+                        I chose to take the Narita Express.
                     </p>
                 </div>
                 <div class="holiday-img">
@@ -100,14 +107,14 @@
         </section>
         <section id="wherestay" class="stay">
             <div class="center-text">
-                <h2 data-key="holiday">Where to stay?</h2>
+                <h2 data-key="wherestay">Where to stay?</h2>
             </div>
             <section class="holiday">
                 <div class="holiday-img">
                     <img src="../../images/japan/toco.jpg">
                 </div>
                 <div class="holiday-text">
-                    <p data-key="visainfo">
+                    <p data-key="interests">
                         There are innumerable neighborhoods in Tokyo where you might want to stay. 
                         Where to stay can vary depending on your main interests, 
                         with options ranging from opulent hotels to reasonably priced hostels such as: 
@@ -120,22 +127,23 @@
                         <li>&#x2022; <a href="http://tinyurl.com/5n97k2e9" target="_blank">Hotel Ryumeikan Tokyo</a></li>
                     </ul>
                     <br>
-                    <p>
+                    <p data-key="interests2">
                         Personally, as a solo traveler, I prefer staying in hostels because I know that in such places, 
                         I'll always encounter people who may become friends for a lifetime.
                         During my time in Tokyo, I made the decision to stay at 
-                        <a href="http://tinyurl.com/y6p8r3cb" target="_blank">Guesthouse Toco</a>
-                        , a beautifully renovated guesthouse with a century-old history.
+                    </p>
+                    <a href="http://tinyurl.com/y6p8r3cb" target="_blank">Guesthouse Toco</a><p>, </p>
+                    <p data-key="interests3">
+                        a beautifully renovated guesthouse with a century-old history.
                     </p>
                 </div>
             </section>
             <section class="holiday">
                 <div class="holiday-text">
-                    <p data-key="jrinfo">
+                    <p data-key="interests4">
                         The moment one walks into this gorgeous place, a friendly bar invites guests 
-                        and visitors to strike up conversations, fostering a cozy atmosphere. A friendly 
-                        atmosphere made it easy to strike up interesting conversations with other travelers. 
-                        The guesthouse draws a crowd of people from all over the world. 
+                        and visitors to strike up conversations, fostering a cozy atmosphere. 
+                        This draws the attention of people from all over the world.
                     </p>
                 </div>
                 <div class="holiday-img">
@@ -147,20 +155,23 @@
                     <img src="../../images/japan/nochetoco.jpg">
                 </div>
                 <div class="holiday-text">
-                    <p data-key="visainfo">
-                        The unique space provides a genuine experience of staying in an old-fashioned Japanese house.
-                        The staff at Guesthouse Toco are very friendly, and the overall ambiance is pleasant. 
-                        I personally enjoyed my time relaxing and chatting with other travelers in the charming garden. 
-                        The location is convenient, just a few minutes' walk from the station and a short distance from
-                        <a href="http://tinyurl.com/4wtmfy3u" target="_blank">Ueno</a>
-                         and 
-                        <a href="http://tinyurl.com/bde84tvh" target="_blank">Akihabara</a>.
+                    <p data-key="interests5">
+                        The unique space provides a genuine experience of staying in an old-fashioned 
+                        Japanese house. The staff at Guesthouse Toco are very friendly, and the overall 
+                        ambiance is pleasant. I personally enjoyed my time chilling and chatting with 
+                        other travelers in the charming garden. The location is convenient, just a few 
+                        minutes' walk from the station and a short distance from
                     </p>
+                    <a href="http://tinyurl.com/4wtmfy3u" target="_blank">Ueno</a>
+                    <p data-key="interests6">
+                         and 
+                    </p>
+                    <a href="http://tinyurl.com/bde84tvh" target="_blank">Akihabara</a><p>.</p> 
                 </div>
             </section>
             <section class="holiday">
                 <div class="holiday-text">
-                    <p data-key="visainfo">
+                    <p data-key="interests7">
                         Staying here was a wonderful experience as it was the first place I stayed in Japan, 
                         offering a peak of the beauty created by the contrast of temples, 
                         shrines, and homes side by side. The hostel also provides a breakfast option for 500 yen, 
@@ -178,37 +189,44 @@
         </section>
         <section id="edogawa" class="stay">
             <div class="center-text">
-                <h2 data-key="holiday">Edogawa!</h2>
+                <h2 data-key="edogawa">Edogawa!</h2>
             </div>
             <section class="holiday">
                 <div class="holiday-img">
                     <img src="../../images/japan/callee.jpg">
                 </div>
                 <div class="holiday-text">
-                    <p data-key="visainfo">
+                    <p data-key="edogawa1">
                         I also had the opportunity to stay for about 3 days in 
-                        <a href="http://tinyurl.com/bdebpncv" target="_blank">Edogawa City</a> 
+                    </p>
+                    <a href="http://tinyurl.com/bdebpncv" target="_blank" data-key="edogawaLink1">Edogawa City</a> 
+                    <p data-key="edogawa2">
                         because I wanted to experience 
                         life in a place not too far nor too close to the main metropolis. To be honest, I was very curious 
                         about the place with the same name like the famous author and critic 
-                        <a href="https://en.wikipedia.org/wiki/Edogawa_Ranpo" target="_blank">Edogawa Ranpo</a>
-                        , and one of my childhood heroes, 
-                        <a href="https://www.detectiveconanworld.com/wiki/Conan_Edogawa" target="_blank">Conan Edogawa</a>. 
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Edogawa_Ranpo" target="_blank" data-key="edogawaLink2">Edogawa Ranpo</a><p>,</p>
+                    <p data-key="edogawa3">
+                        and one of my childhood heroes,
+                    </p> 
+                    <a href="https://www.detectiveconanworld.com/wiki/Conan_Edogawa" target="_blank" data-key="edogawaLink3">Conan Edogawa</a><p>.</p>
+                    <p data-key="edogawa4">
                         That, too, was one of the reasons why I decided to stay here.
-                        <br>
-                        <br>
+                        <br><br>
                         I felt amazing staying around here, it's a peaceful place that gave me a lot of peace throughout the day, 
                         from the morning when kids leave for school until the evening when adults come home from work. Its understatedly 
                         beautiful streets constantly brought to mind TV shows like 
-                        <a href="https://en.wikipedia.org/wiki/Case_Closed" target="_blank">Detective Conan</a> 
-                        and 
-                        <a href="https://en.wikipedia.org/wiki/Doraemon" target="_blank">Doraemon</a>.                     
                     </p>
-                </div>
+                    <a href="https://en.wikipedia.org/wiki/Case_Closed" target="_blank" data-key="edogawaLink4">Detective Conan</a> 
+                    <p data-key="edogawa5">
+                        and 
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Doraemon" target="_blank" data-key="edogawaLink5">Doraemon</a><p>.</p>                     
+                </div>                
             </section>
             <section class="holiday">
                 <div class="holiday-text">
-                    <p data-key="jrinfo">
+                    <p data-key="edogawa6">
                         One of my favorite activities was having breakfast and dinner in the park in front of the apartment where I stayed. 
                         I always bought a salmon onigiri, another one with tuna and mayonnaise, and a coffee. I sat and appreciated the 
                         serenity of the place, listening to the birds in the morning, and in the evenings, the cats would come out to chat.
@@ -223,7 +241,7 @@
                     <img src="../../images/japan/bcis.jpg">
                 </div>
                 <div class="holiday-text">
-                    <p data-key="visainfo">
+                    <p data-key="edogawa7">
                         But undoubtedly, what surprised me was how children, young people, and adults of all ages used their bicycles 
                         to get to everywhere, the store, and the train station, where I assume they headed to the metropolitan area.
                     </p>
@@ -231,15 +249,17 @@
             </section>
             <section class="holiday">
                 <div class="holiday-text">
-                    <p data-key="jrinfo">
-                        Without a doubt, Edogawa City is full of hidden gems and incredibly beautiful 
-                        temples like 
-                        <a href="http://tinyurl.com/5yu394s7" target="_blank">Zenyoji</a> 
-                        and 
-                        <a href="http://tinyurl.com/22cfryeu" target="_blank">Zentokuji</a>. 
-                        Walking beside the Edo River is also a lovely experience. 
-                        And if you happen to be here in early August, don't forget about the fireworks festival that 
-                        happens every year on the first Saturday of August.
+                    <p data-key="edogawa8">
+                        Without a doubt, Edogawa City is full of hidden gems and incredibly beautiful temples like
+                    </p>
+                    <a href="http://tinyurl.com/5yu394s7" target="_blank">Zenyoji</a>
+                    <p data-key="edogawa9">
+                        and
+                    </p>
+                    <a href="http://tinyurl.com/22cfryeu" target="_blank">Zentokuji</a><p>. </p>
+                    <p data-key="edogawa10">
+                        Walking beside the Edo River is also a lovely experience.
+                        And if you happen to be here in early August, don't forget about the fireworks festival that happens every year on the first Saturday of August.
                     </p>
                 </div>
                 <div class="holiday-vid">
@@ -251,7 +271,7 @@
         </section>
         <section id="asakusa" class="stay">
             <div class="center-text">
-                <h2 data-key="holiday">Asakusa!</h2>
+                <h2 data-key="asakusa">Asakusa!</h2>
             </div>
             <section class="holiday">
                 <div class="holiday-img">

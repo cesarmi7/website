@@ -244,6 +244,12 @@ header.sticky {
     font-weight: 800;
     margin-bottom: 35px;
 } 
+.holiday-text p, .holiday-text a {
+    display: inline;
+}
+.holiday-text a {
+    font-size: var(--p-font);
+}
 @media (max-width: 3000px){
     #menu-icon{
         display: block;

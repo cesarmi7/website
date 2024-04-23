@@ -185,6 +185,7 @@ header.sticky {
 }
 .center-text{
     text-align: center;
+    margin-top: 50px;
 }
 .center-text h2{
     font-size: var(--h2-font);
@@ -227,6 +228,12 @@ header.sticky {
 .box img:hover{
     transform: scale(1.04);
     cursor: pointer;
+}
+.holiday-text b {
+    color: #ffffffe4;
+}
+.culture-text b {
+    color: #ffffffe4;
 }
 .travels2,.travels3, .travels4{
     padding-top: 3px;
@@ -395,7 +402,7 @@ header.sticky {
         margin-top: 4px;
     }
 }
-@media (max-width: 1200px){
+@media (max-width: 1370px){
     header{
         padding: 14px 5%;
     }
@@ -410,14 +417,11 @@ header.sticky {
         --h2-font: 2.8rem;
         --p-font: 15px;
     }
-    .navbar li{
-        margin-top: 4px;
-    }
     .home{
         height: 90vh;
     }
 }
-@media (max-width: 1050px){
+@media (max-width: 1175px){
     .feature-content{
         gap: 1.5rem;
     }
@@ -463,6 +467,23 @@ header.sticky {
     .navbar.open{
         left: 0;
     }
+    .box2 h4{
+        bottom: 40px;
+    }
+    .box h4{
+        bottom: 40px;
+    }
+}
+@media (max-width: 830px){
+    .tour-content,.tour-content2,.tour-content3, .tour-content4{
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+}
+@media (max-width: 810px){
+    .feature-content{
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 2.2rem;
+    }
 }
 @media (max-width: 800px){
     .holiday{
@@ -471,8 +492,29 @@ header.sticky {
     .culture{
         grid-template-columns: 1fr;
     }
+    .newsletter-content{
+        grid-template-columns: 1fr;
+    }
     .xe{
         grid-template-columns: 1fr;
+    }
+    .feature-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+@media (max-width: 760px){
+    .feature-content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 3rem;
+    }
+}
+@media (max-width: 610px){
+    .tour-content,.tour-content2,.tour-content3, .tour-content4{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
 }
 @media (max-width: 600px){
@@ -489,8 +531,21 @@ header.sticky {
     .h-right2 a{
         margin: 2px;
     }
+    .feature-content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 2.6rem;
+    }
 }
-@media (max-width: 450px){
+@media (max-width: 500px){
+    .tour-content,.tour-content2,.tour-content3, .tour-content4{
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    }
+    .feature-content{
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+        gap: 2.5rem;
+    }
+}
+@media (max-width: 455px){
     header{
         padding: 12px 3%;
     }
@@ -499,5 +554,24 @@ header.sticky {
     }
     section{
         padding: 60px 3% 50px;
+    }
+    .box2 h4{
+        bottom: 40px;
+    }
+    .box h4{
+        bottom: 40px;
+    }
+    .tour-content,.tour-content2,.tour-content3, .tour-content4{
+        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+        gap:1.7rem;
+    }
+}
+@media (max-width: 436px){
+    .tour-content,.tour-content2,.tour-content3, .tour-content4{
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        gap:1.7rem;
+    }
+    .travels, .travels2, .travels3, .travels4{
+        padding-bottom: 25px;
     }
 }
